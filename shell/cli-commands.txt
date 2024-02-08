@@ -1,0 +1,4 @@
+ng add @angular-architects/module-federation --project shell --type host --port 4200
+ng add @angular-architects/module-federation --project mfe1 --type remote --port 4201
+
+declare module 'mfe1/Module';
